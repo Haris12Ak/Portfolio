@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Haris Akšamović</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/png" href="images/code-icon.png">
+    <script src="https://kit.fontawesome.com/33bbf3c2eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <img src="./images/code-icon.png" alt="Icon" width="40" height="40">
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+        </ul>
+        <div class="responsive-nav">
+            <div>
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="home" class="home">
+        <div class="content-left">
+            <h2>FULL STACK .NET DEVELOPER</h2>
+            <h1>Haris Akšamović</h1>
+            <p>I am Haris Akšamović, and I hold a Bachelor’s degree in Software Development.
+                <br> I develop
+                applications for desktop, mobile and web <br> (C#, ASP.NET Core, .NET Framework, MSSQL, Angular and
+                Flutter).
+            </p>
+            <div>
+                <button data-url="https://drive.google.com/file/d/1VUhHE1s_G3cnVGVPznkAxN4OXN5okG92/view?usp=sharing" onclick="openLink(event)">Download CV</button>
+                <button data-url="https://drive.google.com/file/d/1z8hLvZUWc7ilQwTeSbBjoRzC-FgSytH8/view?usp=sharing" onclick="openLink(event)">Download Cover Letter</button>
+            </div>
+            <div class="info">
+                <div>
+                    <i class="fa-brands fa-linkedin fa-2xl"
+                        data-url="https://www.linkedin.com/in/haris-ak%C5%A1amovi%C4%87-847a67304/"
+                        onclick="openLink(event)"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github fa-2xl" data-url="https://github.com/Haris12Ak"
+                        onclick="openLink(event)"></i>
+                </div>
+                <div>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=harisaksamovic12@gmail.com" target="_blank"
+                        style="text-decoration: none; display: block; color: black;"><i
+                            class="fa-solid fa-envelope fa-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-image"> </div>
+    </div>
+
+    <div class="about-me">
+        <div class="content-left">
+            <h1>About Me</h1>
+            <p>During my studies, I worked on various projects using technologies such as ASP.NET Core, C#, Angular,
+                Flutter, and SQL databases. When developing applications, I applied both monolithic and microservice
+                architectures depending on the project requirements. For additional functionalities, I have experience
+                working with technologies like RabbitMQ and SignalR. These projects provided me with practical
+                experience in software development and problem-solving.
+                <br>
+                <br>
+                In addition to my studies and academic projects, I completed an internship at <strong
+                    style="color: gray;">DevSage in
+                    Sarajevo</strong>, where
+                I gained further experience and had the opportunity to work on real-world projects. During my
+                internship, I worked on the <strong><a href="#freshmarket"
+                        style="color: rgb(84, 84, 255); text-decoration: none;">FreshMarket</a></strong> project, which
+                helped me deepen
+                my practical
+                knowledge and
+                understanding of software development in a professional environment.
+                <br>
+                <br>
+                I am particularly motivated by working in a team environment, where I can exchange ideas and learn from
+                others. I am open to new opportunities and eager to continue developing my skills, especially in modern
+                technologies and software architecture.
+            </p>
+        </div>
+        <div class="content-right">
+            <div class="education">
+                <div>
+                    <i class="fa-solid fa-user-graduate fa-2xl"></i>
+                </div>
+                <h3>Education</h3>
+                <p>Bachelor's degree <br> Faculty of Information Technology <br> Mostar (Bosnia and Herzegovina)</p>
+            </div>
+            <div class="skills">
+                <div>
+                    <i class="fa-solid fa-ranking-star fa-2xl"></i>
+                </div>
+                <h3>Skills</h3>
+                <p>Backend Development <br> Frontend Development</p>
+                <li>
+                    <a href="#skills">View</a>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="skills" class="title">Skills</h1>
+
+    <div class="skills">
+        <div class="content-left">
+            <h2>Backend Development</h2>
+            <div class="backend-container">
+                <div>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>C#</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>C++</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>ASP .NET Core</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>ASP .NET Web Api</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>ASP .NET MVC</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>Firebase</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>Node JS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>Git</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>Docker</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-right">
+            <h2>Frontend Development</h2>
+            <div class="frontend-container">
+                <div>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>Java Script</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>Type Script</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>Angular</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="content">
+                        <div>
+                            <i class="fa-regular fa-circle-check fa-xl"></i>
+                        </div>
+                        <div>
+                            <h3>Flutter</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="projects" class="title">Projects</h1>
+
+    <div class="projects">
+        <div class="project-container">
+            <div class="image">
+                <img src="./images/BarberShop.png" alt="BarberShop">
+            </div>
+            <div class="buttons">
+                <button data-url="https://github.com/Haris12Ak/eBarberShop" onclick="openLink(event)">GitHub
+                    Code</button>
+                <button data-url="https://drive.google.com/file/d/1b4MqeWeYy2bWosE3MPPWjIiUjWLBxuOa/view?usp=sharing"
+                    onclick="openLink(event)">Desktop App</button>
+                <button data-url="https://drive.google.com/file/d/1XkacIo63ZHgHXx0ONJxCufkj0h-Jc2ML/view?usp=sharing"
+                    onclick="openLink(event)">Mobile App</button>
+            </div>
+            <h3>BarberShop Management System in ASP.NET Core (C# and MSSQL), Flutter</h3>
+            <div class="text-container">
+                <p>BarberShop is an application designed for administrators (Desktop app) and end users (Mobile app).
+                    It
+                    provides complete BarberShop management in one place — from managing employees, services, and
+                    service
+                    prices to appointments, products, and product orders. <br>
+                    On the client side, the app supports adding reviews and employee ratings, sending an email to the
+                    user
+                    after a successful appointment booking, PayPal integration for purchasing products offered by the
+                    salon,
+                    as well as viewing news and a service image gallery.
+                    <br>
+                    <br>
+                    <strong>Authorization: </strong>Basic Auth
+                    <br>
+                    <strong>Technologies: </strong>ASP.NET Core Web API, Flutter, SQL Server, RabbitMQ, SMTP (Simple
+                    Mail Transfer Protocol), Docker
+                </p>
+            </div>
+            <button class="show-more-btn">Show more</button>
+        </div>
+        <div class="project-container">
+            <div class="image">
+                <img src="./images/HealthCare.png" alt="HealthCare">
+            </div>
+            <div class="buttons">
+                <button data-url="https://github.com/Haris12Ak/RS1-HealthCare" onclick="openLink(event)">GitHub
+                    Code</button>
+                <button
+                    data-url="https://docs.google.com/document/d/1l5CJiSYBRteca8czMa8Y4nu9MF5MBfeF/edit?usp=sharing&ouid=102467708028690471152&rtpof=true&sd=true"
+                    onclick="openLink(event)">Demo</button>
+            </div>
+            <h3>HealthCare Management System in ASP.NET Core (C# and MSSQL), Angular</h3>
+            <div class="text-container">
+                <p>HealthCare is a web application for managing a hospital system.
+                    The doctor's role includes adding patients, managing patient records, referrals, medications,
+                    reports,
+                    prescriptions, and appointments.
+                    The patient's role includes viewing available appointments and selecting a doctor for a desired time
+                    slot. <br>
+                    The project was developed as part of a team effort.
+                    <br>
+                    <br>
+                    <strong>Authorization: </strong>IdentityServer4
+                    <br>
+                    <strong>Technologies: </strong>ASP.NET Core Web API, Angular, SQL Server, SignalR
+                </p>
+            </div>
+            <button class="show-more-btn">Show more</button>
+        </div>
+        <div class="project-container">
+            <div class="image">
+                <img src="./images/MultiplexKino.png" alt="MultiplexKino">
+            </div>
+            <div class="buttons">
+                <button data-url="https://github.com/Haris12Ak/MultiplexKinoNoviRepo" onclick="openLink(event)">GitHub
+                    Code</button>
+                <button data-url="https://drive.google.com/file/d/1tgVbJ_4aCYkye6KXiqdgEAakDRc0Kg5v/view?usp=sharing"
+                    onclick="openLink(event)">Demo</button>
+            </div>
+            <h3>MultiplexKino Management System in ASP.NET Core MVC (C# and MSSQL)</h3>
+            <div class="text-container">
+                <p>MultiplexKino is a web application for managing movie screenings and seat selection.
+                    The application allows adding, editing, and deleting movies, managing and scheduling screenings,
+                    viewing
+                    screening details, and handling seat management. <br>
+                    The project was developed as part of a team effort.
+                    <br>
+                    <br>
+                    <strong>Authorization: </strong>IdentityServer
+                    <br>
+                    <strong>Technologies: </strong>ASP.NET Core Web App (Model-View-Controller), SQL Server
+                </p>
+            </div>
+            <button class="show-more-btn">Show more</button>
+        </div>
+        <div id="freshmarket" class="project-container">
+            <div class="image">
+                <img src="./images/Fresh Market.png" alt="FreshMarket">
+            </div>
+            <div class="buttons">
+                <button data-url="https://github.com/Haris12Ak/FreshMarket" onclick="openLink(event)">GitHub Code</button>
+                <button data-url="https://drive.google.com/file/d/1ajrNe0IqYmfSu3vVbg3lBT7qh8z0adOw/view?usp=sharing" onclick="openLink(event)">Demo</button>
+            </div>
+            <h3>FreshMarket Management System in ASP.NET Core (C# and MSSQL), Angular</h3>
+            <div class="text-container">
+                <p>Fresh Market is a web application designed to manage the purchase of forest products for companies.
+                    The application is intended for company owners and their clients. The idea behind the app is that,
+                    as a
+                    company owner, after successfully registering your company and user profile, you have the ability to
+                    manage your clients (add new clients, where each client receives an email with login credentials to
+                    access the application and view their purchases), products (set product prices, edit, delete),
+                    purchases
+                    (add purchases for clients and view amounts and prices, edit, delete), and news (add updates for
+                    clients, with real-time notifications using SignalR, edit, delete). <br>
+                    The client role includes viewing the products the company purchases, accessing purchase details and
+                    total income, browsing news, and viewing a dashboard with key purchase-related information.
+                    <br>
+                    <br>
+                    <strong>Authorization: </strong>Keycloak Auth
+                    <br>
+                    <strong>Technologies: </strong>ASP.NET Core Web API, Angular, SQL Server, RabbitMQ, SignalR,
+                    SendGrid, Docker
+                </p>
+            </div>
+            <button class="show-more-btn">Show more</button>
+        </div>
+        <div class="project-container">
+            <div class="image">
+                <img src="./images/IoT.png" alt="IoTProject">
+            </div>
+            <div class="buttons">
+                <button data-url="https://github.com/Haris12Ak/IoT-Project" onclick="openLink(event)">GitHub
+                    Code</button>
+            </div>
+            <h3>IoT (Internet of Things) project - Air conditioner management</h3>
+            <div class="text-container">
+                <p>IoT (Internet of Things) project for simulating air conditioner management using a
+                    NodeMcu controller and sensors (temperature and movement). The idea of the project is to simulate
+                    air conditioner
+                    control through a web application, where sensors read the current room temperature
+                    and a motion sensor detects the number of people in the room. Based on the data
+                    received from the sensors, the controller adjusts the air conditioner to the optimal
+                    temperature set by the user. The values read from the sensors are stored in the Firebase
+                    Realtime Database.
+                    <br>
+                    <br>
+                    <strong>Technologies: </strong>HTML, CSS, JavaScript, Arduino, Firabase
+                    <br>
+                    <strong>Components: </strong>NodeMcu ESP8266, motion sensor, temperature sensor
+                </p>
+            </div>
+            <button class="show-more-btn">Show more</button>
+        </div>
+    </div>
+
+    <div class="contact">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=harisaksamovic12@gmail.com" target="_blank"
+            style="text-decoration: none; color: black;">
+            <div class="content">
+                <div>
+                    <i class="fa-solid fa-envelope fa-2xl"></i>
+                </div>
+                <p>harisaksamovic12@gmail.com</p>
+            </div>
+        </a>
+
+        <div class="content" data-url="https://www.linkedin.com/in/haris-ak%C5%A1amovi%C4%87-847a67304/"
+            onclick="openLink(event)">
+            <div>
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+            </div>
+            <p>LinkedIn</p>
+        </div>
+
+        <div class="content" data-url="https://github.com/Haris12Ak" onclick="openLink(event)">
+            <div>
+                <i class="fa-brands fa-github fa-2xl"></i>
+            </div>
+            <p>GitHub</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
