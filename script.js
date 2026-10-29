@@ -15,8 +15,20 @@ function openLink(event) {
     }
 }
 
+function toggleResponsiveMenu() {
+    const responsiveNav = document.querySelector('.responsive-nav');
+    const menuIcon = document.querySelector('.menu-icon');
+
+    responsiveNav.classList.toggle('active');
+
+    if (responsiveNav.classList.contains('active')) {
+        menuIcon.classList.remove('fa-bars');
+        menuIcon.classList.add('fa-xmark');
+    } else {
+        menuIcon.classList.remove('fa-xmark');
+        menuIcon.classList.add('fa-bars');
+    }
+}
+
 document.querySelector('.responsive-nav > div')
-    .addEventListener('click', () => {
-        const responsoveNav = document.querySelector('.responsive-nav');
-        responsoveNav.classList.toggle('active');
-    });
+    .addEventListener('click', toggleResponsiveMenu);

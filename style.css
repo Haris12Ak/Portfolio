@@ -307,12 +307,14 @@ nav ul li {
 
 .projects .project-container .buttons,
 .projects .project-container h3,
+.projects .project-container h4,
 .projects .project-container p {
     padding: 0px 15px;
 }
 
 .projects .project-container .buttons {
     display: flex;
+    align-items: center;
     gap: 15px;
 }
 

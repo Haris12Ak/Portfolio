@@ -51,6 +51,7 @@
 
     nav .responsive-nav div i {
         transition: opacity 0.4s ease-in-out;
+        padding-right: 20px;
     }
 
     nav .responsive-nav div i:hover {
